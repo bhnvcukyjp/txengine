@@ -16,7 +16,7 @@ The omission of the repo's context, as well as it being a one-off, is intentiona
 - Logic split into easily digestible chunks.
 - Created macro to avoid repetition of the same code block in integration tests.
 - [Cargo machete](https://github.com/bnjbvr/cargo-machete) was used to ensure there are no unused dependencies.
-- Added clippy's pedantic and nursery flags to get the most detailed feedback.
+- Added clippy's pedantic flag to get the most detailed feedback.
 
 ## Efficiency
 - Deserialization is done without allocations and using [BufReader](https://doc.rust-lang.org/std/io/struct.BufReader.html).
